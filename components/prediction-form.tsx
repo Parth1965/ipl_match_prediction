@@ -154,7 +154,7 @@ export function PredictionForm() {
         rrr,
       }
 
-      const response = await fetch("https://dm-project-rab6.onrender.com/predict", {
+      const response = await fetch("https://iplmatchbackend.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
